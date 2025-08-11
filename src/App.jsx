@@ -7,10 +7,12 @@ function App() {
 
   return (
     <>
-      <Heading></Heading>
+     <div className='border-2 w-1/2 py-5 mx-auto rounded-xl'>
+       <Heading></Heading>
       <Search></Search>
       <Navbar></Navbar>
       <MessageBox></MessageBox>
+     </div>
     </>
   )
 }

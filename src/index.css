@@ -22,6 +22,7 @@ a:hover {
 body {
   min-width: 320px;
   min-height: 100vh;
+  padding: 40px;
 }
 
 h1 {
@@ -59,4 +60,14 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.navbarGroup {
+  font-weight: bold;
+  font-size: large;
+  
+}
+.navbarGroup:hover{
+  background-color: skyblue;
+  padding: 7px 15px;
+  border-radius: 20px;
 }

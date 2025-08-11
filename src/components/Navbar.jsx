@@ -1,6 +1,11 @@
-function Navbar () {
-    return (
-       <h3 className="text-3xl">Navbar</h3>
-    )
+function Navbar() {
+  return (
+    <div className="flex justify-evenly py-4">
+      <h4 className="navbarGroup">All</h4>
+      <h4 className="navbarGroup">Unread</h4>
+      <h4 className="navbarGroup">Group</h4>
+      <h4 className="navbarGroup">Community</h4>
+    </div>
+  );
 }
-export default Navbar 
+export default Navbar;
